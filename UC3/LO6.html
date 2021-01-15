@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        header {
+            background: url(img/g1.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 650px;
+        }
+
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+
+        .parallax-container {
+            height: 300px;
+        }
+
+        @media screen and (max-width: 670px; ) {
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+    <title>JuanStream</title>
+
+</head>
+
+<body>
+
+    <!-- nav-bar -->
+    <Header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">FISHTECH</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+                <ul class="sidenav darken-4" id="mobile-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </Header>
+    <!-- photo / grid -->
+    <section class="scrollspy container section" id="photos">
+        <h1 class="center teal-text"><b>Grade Level</b></h1>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/Elem.png" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="indigo-text text-darken-4">Elementary</h3>
+                <p>Elementary math includes number theory, which is the study of whole numbers and relations between
+                    them. This unit includes in-depth instruction on factors, multiples, primes, composites,
+                    divisibility tests, and exponents. Try our elementary math lessons below, or browse other
+                    instructional units.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7">
+                <img src="img/JHS.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l4 right-align">
+                <h3 class="indigo-text text-darken-4">Junior High School</h3>
+                <p>Learn high school geometry—transformations, congruence, similarity, trigonometry, analytic geometry,
+                    and more. (aligned with Common Core standards).</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/SHS.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="indigo-text text-darken-4">Senior High School</h3>
+                <p>Learners will be exposed to other types of functions such as piecewise, rational, exponential, and
+                    logarithmic functions. Related topics such as solving ....</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/traditional.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+    <!-- services / tabs -->
+    <div class="container">
+        <p><b>Traditional</b> teaching
+            The back-to-basics traditional education method, also known as conventional education, is still widely used
+            in schools. The old-fashioned way of teaching was all about recitation, for example students would sit in
+            silence, while one student after another would take it in turns to recite the lesson, until each one had
+            been called upon. The teacher would listen to each student’s recitation, and they were expected to study and
+            memorise the assignments. At the end of the module a written test or oral examination would be conducted;
+            this process was called an Assignment Study Recitation Test.
+
+        </p>
+        <p>The way in which <b>traditional methods</b> were taught ensured that students were rewarded for their
+            efforts, used
+            class periods efficiently and exercised clear rules to manage students’ behaviour. They were based on
+            established customs that had been used successfully in schools over many years. The teachers communicated
+            the knowledge and enforced standards of behaviour.</p>
+
+
+    </div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/modern.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+    <!-- contact form -->
+    <div class="container">
+        <p> Education reforms mean that learning is taught from a completely different angle. <b>Progressive
+                educational</b> practices focus more on the individual student's needs rather than assuming all students
+            are at
+            the same level of understanding. The modern way of teaching is more activity based, using questioning,
+            explaining, demonstration and collaboration techniques.
+
+        </p>
+        <p>One modern method is <i><b>spaced learning</b>, this is when students are encouraged to
+                quickly switch through activities, for example; providing 10 minutes of knowledge on a subject with a
+                PowerPoint presentation and then having 15 minutes of sport. The aim of spaced learning is to achieve
+                better
+                grades, and it works! It is claimed that this is a more effective than teaching students by traditional
+                methods for four hours, thus helping the brain cells to create connections that they need to remember
+                knowledge. It also helps people relax.
+
+                Sonia Jackson who wrote an interesting blog post about modern teaching methods for Getting Smart states:
+                “The traditional “chalk and talk” method of teaching that’s persisted for hundreds of years is now
+                acquiring
+                inferior results when compared with the more modern and revolutionary teaching methods that are
+                available
+                for use in schools today. Greater student interaction is encouraged, the boundaries of authority are
+                being
+                broken down, and a focus on enjoyment over grades is emphasised.”</p>
+
+        <!-- footer -->
+
+
+
+
+
+
+
+
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- sidenav -->
+        <script>
+            $(document).ready(function () {
+                $('.sidenav').sidenav();
+                $('.materialboxed').materialbox();
+                $('.parallax').parallax();
+            });
+        </script>
+
+</body>
+
+</html>
